@@ -35,7 +35,7 @@
 </head>
 <body>
   <h1>Assignment 2: System Analysis and Usability Test</h1>
-  <p><strong>Name:</strong> [Your Name]</p>
+  <p><strong>Name:</strong> Kyle Egan</p>
   <p><strong>Course:</strong> LSC555</p>
 
   <div class="section">
@@ -51,83 +51,77 @@
       </thead>
       <tbody>
         <tr>
-          <td>Enter keyword "gender roles" in search bar</td>
-          <td>Returns a list of newspaper issues containing the term, but with no article previews or keyword highlighting.</td>
+          <td>Click on menu items like News, Sports, or Opinion</td>
+          <td>Redirects user to a new page showing posts in that category, with post headlines and thumbnail images.</td>
         </tr>
         <tr>
-          <td>Click on a specific issue</td>
-          <td>Opens a full PDF scan of the newspaper. Navigation within the issue is manual, requiring scrolling or keyword search within PDF.</td>
+          <td>Click on a specific article title or image</td>
+          <td>Opens full article with embedded images, social sharing options, and related post recommendations at the bottom.</td>
         </tr>
         <tr>
-          <td>Navigate via calendar</td>
-          <td>Displays all issues from a selected date, though there is no visual indicator showing which dates contain content.</td>
+          <td>Enter a keyword in the search bar</td>
+          <td>Returns a list of posts with the term in the title or body. No filtering or sorting by date or relevance.</td>
         </tr>
         <tr>
-          <td>Use "Browse This Collection"</td>
-          <td>Presents paginated thumbnails of newspaper issues. Little to no metadata is provided, making it hard to identify relevant articles quickly.</td>
+          <td>Click on author name or date</td>
+          <td>Brings user to a page showing posts by that author or from that date. No preview of content without clicking.</td>
         </tr>
       </tbody>
     </table>
 
-    <h3>Heuristic Review</h3>
-    <ul>
-      <li><strong>Visibility of System Status:</strong> The site does not indicate when a search is being processed or if the system is working in the background. Users may be unsure if their action was registered.</li>
-      <li><strong>Match Between System and Real World:</strong> Language used in navigation like “datastream” or “collection” is more suited for librarians or archivists than general users.</li>
-      <li><strong>User Control and Freedom:</strong> Once in a PDF document, there is no straightforward way to return to the previous search result page, creating a frustrating loop.</li>
-      <li><strong>Consistency and Standards:</strong> The design is uniform throughout, but the lack of labels, tooltips, or standard navigation (like a breadcrumb trail) can disorient users unfamiliar with digital archives.</li>
-      <li><strong>Error Prevention:</strong> There are no prompts or auto-correct features to help users avoid or recover from input mistakes such as misspelled queries.</li>
-      <li><strong>Recognition Rather Than Recall:</strong> There is no system memory or visible pathway to retrace previous steps or searches. Users have to remember what they searched and manually backtrack.</li>
-      <li><strong>Flexibility and Efficiency of Use:</strong> The absence of filters like publication year, topic, or author forces all users to interact in the same linear way, regardless of expertise level.</li>
-      <li><strong>Aesthetic and Minimalist Design:</strong> The design is simple and not overwhelming, but the lack of call-to-action elements or explanation about how to navigate reduces its effectiveness.</li>
-      <li><strong>Error Recovery:</strong> Errors such as invalid searches or navigation to nonexistent pages receive no helpful messages or suggested next steps.</li>
-      <li><strong>Help and Documentation:</strong> There is no visible help section, FAQ, or tips built into the user experience. Users are expected to know how to use digital archives or seek outside help.</li>
-    </ul>
+   <h3>Heuristic Review</h3>
+<ul>
+  <li><strong>Visibility of System Status:</strong> The site responds quickly when navigating between pages, but there are no visible indicators during loading or search processes. A loading spinner or “searching…” message could help reassure users that the system is processing their request.</li>
 
+  <li><strong>Match Between System and the Real World:</strong> The language and layout mirror the conventions of news websites, using clear and familiar categories like “News,” “Sports,” and “Opinion.” Headlines and dates match what users would expect from a digital newspaper, improving comfort and comprehension.</li>
+
+  <li><strong>User Control and Freedom:</strong> Users can easily return to the homepage or move between categories, and the navigation menu remains consistent throughout the site. However, there's no “back to top” button or undo feature if a user performs an unintended search.</li>
+
+  <li><strong>Consistency and Standards:</strong> The interface is consistent, using the same layout for each article and section page. Links behave as expected, and icons and labels follow standard conventions. Still, the inconsistency in search results presentation (some articles show images, some don’t) may confuse users.</li>
+
+  <li><strong>Error Prevention:</strong> There is no support for misspelled search terms or suggestions for similar keywords. This makes it easy for users to encounter dead ends with no results unless the query is precise.</li>
+
+  <li><strong>Recognition Rather Than Recall:</strong> Users are helped by category labels, headlines, and images that support recognition. However, there is no feature to help recall previously viewed articles, and the lack of breadcrumbs limits user memory of browsing history.</li>
+
+  <li><strong>Flexibility and Efficiency of Use:</strong> The site is fine for first-time users but lacks shortcuts or advanced features (e.g., saved searches, filtering, or sorting) that would help power users or researchers find content more efficiently.</li>
+
+  <li><strong>Aesthetic and Minimalist Design:</strong> The overall design is clean and minimalistic, with good use of white space. However, occasional banner ads can distract from the reading experience, especially when they clash with the visual tone of the rest of the site.</li>
+
+  <li><strong>Help Users Recognize, Diagnose, and Recover from Errors:</strong> If a search yields no results, the site gives no feedback or suggestion for next steps. This may frustrate users who don’t understand why their query failed or what to try next.</li>
+
+  <li><strong>Help and Documentation:</strong> There is no obvious help feature, FAQ, or guide for users who may want to understand how to find archives or submit content. While the site is fairly intuitive, more support could assist new users or those with less digital literacy.</li>
+</ul>
     <h3>Summary of Strengths and Weaknesses</h3>
-    <p><strong>Strengths:</strong></p>
-    <ul>
-      <li>High-quality, complete scans of historical student newspapers with good legibility.</li>
-      <li>Broad temporal coverage, offering decades of archived material that would be invaluable to researchers.</li>
-      <li>Simple layout with minimal distractions and few ads or pop-ups.</li>
-    </ul>
-    <p><strong>Weaknesses:</strong></p>
-    <ul>
-      <li>Unintuitive search function with no filtering, preview, or result ranking.</li>
-      <li>No content summaries make it difficult to assess which issues are worth opening.</li>
-      <li>Users can easily get lost in the navigation without a clear path back.</li>
-    </ul>
+    <p><strong>Strengths:</strong> The site has a clean and modern layout with fast-loading pages. Articles are clearly laid out, with intuitive navigation supported by headings, thumbnails, and section labels. The visual consistency across different pages enhances user confidence and familiarity when exploring the site. These strengths make it easy for casual users to explore articles and sections without requiring prior experience with the site.</p>
+    <p><strong>Weaknesses:</strong> The search feature is quite basic. It does not offer any filtering or sorting capabilities, which makes it inefficient for users looking for specific information. Search results do not include preview text or publication dates, so users must click into each result to determine its relevance. Accessibility support is limited—text resizing tools, screen reader optimizations, or image alt text are either minimal or missing altogether.</p>
   </div>
 
   <div class="section">
     <h2>Part 2: Mini-Usability Test</h2>
 
-    <h3>Task 1: Explore How the CUA Student Newspaper Has Changed Over the Years</h3>
-    <p><strong>Test Scenario:</strong> A student was asked to spend 5 minutes browsing the site to explore how The Tower (Catholic University’s student newspaper) has evolved over time.</p>
-    <p><strong>Observed Behavior:</strong> The student used the “Browse This Collection” feature and navigated by decade, looking at issues from the 1920s, 1960s, and 2000s. They relied on PDF previews to scan front pages and identify changes in layout, headlines, and article tone. The student commented that older issues were more text-dense with formal language, while recent issues featured more visual elements and casual language.</p>
-    <p><strong>Issues Encountered:</strong> Without summaries or keyword highlights, the student had to rely on manually opening and reading each issue. Navigation was tedious, as returning to the search or collection page required several back-clicks. There were no built-in tools to compare issues side-by-side.</p>
-    <p><strong>Emotional Response:</strong> The student found the archive fascinating but expressed frustration with the time it took to browse and the lack of search customization.</p>
+    <h3>Task 1: Explore How the Student Newspaper Has Changed Over the Years</h3>
+    <p><strong>Test Scenario:</strong> A student was asked to explore how The Tower has changed over time using the website. They were given five minutes to conduct the search.</p>
+    <p><strong>Observed Behavior:</strong> The user started by scrolling to the bottom of the homepage to look for archives or a date-based browsing option. Unable to find a clear archive feature, they then used the search function, entering terms like "history" or "archives." They browsed articles from the News section, but only recent content was easily accessible. The user attempted to scroll through older posts but found no option to jump to earlier years.</p>
+    <p><strong>Issues Encountered:</strong> The site lacks an easily accessible archive or timeline function. Without a filtering tool or date-based search, it was very difficult to view historical changes. There’s no curated section dedicated to older issues or a “look back” series. The search results did not appear to prioritize or group content by date, and no visual indicators like publication year made it easy to identify historical content.</p>
+    <p><strong>Emotional Response:</strong> The user became somewhat frustrated, feeling limited in their ability to see the evolution of the paper. They expected a clearer path to browse older content or access special historical collections.</p>
 
-    <h3>Task 2: Find Articles on Campus Perspectives Regarding WWII and the Vietnam War</h3>
-    <p><strong>Test Scenario:</strong> The student was asked to imagine they were a teacher preparing a lesson on student reactions to World War II and the Vietnam War. They were given 10 minutes to find two relevant articles about each conflict.</p>
-    <p><strong>Observed Behavior:</strong> The student searched for “World War II,” “Vietnam War,” and “protest” in the site’s search bar. They browsed through the results and clicked on several issues from the 1940s and 1970s. For WWII, they located an article from 1942 about campus war efforts and another from 1945 about student enlistment. For the Vietnam War, they found a 1969 article discussing anti-war protests and another from 1971 covering student government resolutions.</p>
-    <p><strong>Issues Encountered:</strong> The student noted that search results weren’t filtered by decade or relevance. It was difficult to tell which issue contained the relevant content without manually opening and searching inside the PDF. There were no excerpts or content tags to help identify key topics.</p>
-    <p><strong>Emotional Response:</strong> The student became slightly overwhelmed and indicated they were unsure whether they had found the “best” articles due to the lack of guidance or filtering tools.</p>
+    <h3>Task 2: Find Campus Perspectives on World War II and the Vietnam War</h3>
+    <p><strong>Test Scenario:</strong> The user was asked to imagine they were a teacher researching campus perspectives on WWII and the Vietnam War. They were given 10 minutes to locate two articles on each topic.</p>
+    <p><strong>Observed Behavior:</strong> The user began by entering "World War II" and "Vietnam" into the search bar. Results were limited, and the search tool did not clearly prioritize relevant articles. The user tried using different keywords such as “Vietnam War campus” or “WWII student reaction.” After some effort, the user located a couple of articles mentioning veterans and ROTC commemorations but had difficulty verifying if they reflected actual student perspectives during the historical time periods.</p>
+    <p><strong>Issues Encountered:</strong> The search returned mixed results with no filtering options. Articles about war remembrance events often appeared, but few were direct student-written pieces from the relevant eras. Without the ability to sort by decade or article type, identifying authentic period perspectives was extremely difficult. The lack of article summaries or publication years in the search preview also made it harder to know whether to click.</p>
+    <p><strong>Emotional Response:</strong> The user was mildly discouraged. They were interested in the topic but found the website's limitations made this research-heavy task more frustrating than expected.</p>
 
     <h3>Post-Test Reflections</h3>
-    <ul>
-      <li>Participants strongly recommended adding summaries and highlighted search terms in results.</li>
-      <li>Navigation would benefit from a breadcrumb trail or a persistent sidebar with recently viewed items.</li>
-      <li>Advanced filters (by decade, war/conflict, topic) would significantly improve research effectiveness.</li>
-    </ul>
+    <p>Overall, users appreciated the general layout and ease of exploring current articles but encountered major friction when trying to conduct archival or academic-style research. There is a gap between what the site does well—supporting current campus browsing—and what it lacks, which is long-term content accessibility and robust search tools.</p>
 
     <h3>Suggested Improvements</h3>
     <ul>
-      <li>Incorporate full-text keyword highlighting and content previews in search results to help users find relevant content quickly.</li>
-      <li>Include navigational aids like breadcrumbs, a history tab, or persistent “return to search” buttons.</li>
-      <li>Add basic metadata like year, theme tags (e.g., war, protest, sports), and author/editor when available.</li>
-      <li>Introduce an “Explore by Topic” feature to allow thematic browsing for common academic research areas.</li>
+      <li>Implement filters for search results, including by date, author type, article type, and relevance.</li>
+      <li>Create a clearly labeled archive section with a date-based browsing interface and decade filters.</li>
+      <li>Add summaries and publication dates in search result previews.</li>
+      <li>Develop a help or onboarding section to assist first-time users in navigating the site’s features.</li>
+      <li>Enhance accessibility with screen reader support, alt text for images, and text resizing tools.</li>
     </ul>
   </div>
-
 </body>
 </html>
